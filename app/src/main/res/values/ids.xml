@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_usernamee" type="id" />
+    <item name= "et_passwordd" type="id"/>
+    <item name="tv_username" type="id"/>
+
+    <item name= "logo" type="id"/>
+
+    <item name="btnn" type="id" />
+    <item name="tv_caa" type ="id" />
+    <item name="tv_member" type ="id" />
+    <item name="tv_password" type ="id" />
+
+    <item name="et_fullnameregis" type="id" />
+
+    <!--<item name="et_fullname" type="id"/>-->
+    <item name="et_username" type="id"/>
+    <!--<item name="tv_username" type="id"/>-->
+    <item name="et_password" type="id"/>
+    <!--<item name="tv_password" type="id"/>-->
+    <!--<item name="btn" type="id"/>-->
+
+
+</resources>

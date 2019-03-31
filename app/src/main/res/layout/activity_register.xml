@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/animasigradient"
+        android:gravity="center"
+        tools:context=".Register">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:background="@drawable/gradientdua"
+    >
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+
+        />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_fullname"
+                android:textColor="#fff"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:layout_margin="15dp"
+
+        />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_usernameregis"
+                android:hint="Username"
+                android:textColor="#fff"
+                android:inputType="text"
+                android:layout_margin="15dp"
+
+        />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_passwordregis"
+                android:hint="Password"
+                android:textColor="#fff"
+                android:inputType="textPassword"
+                android:layout_margin="15dp"
+
+        />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="#fff"
+                android:background="@drawable/gradientsatu"
+                android:id="@+id/btn_regtister"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
